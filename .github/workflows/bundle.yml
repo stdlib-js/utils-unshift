@@ -83,6 +83,9 @@ jobs:
           find ./deno -type f -name '*.md' -print0 | xargs -0 perl -0777 -i -pe "s/(\* \* \*\n+)?<section class=\"cli\">[\s\S]+<\!\-\- \/.cli \-\->//g"
           find ./deno -type f -name '*.md' -print0 | xargs -0 perl -0777 -i -pe "s/(\* \* \*\n+)?<section class=\"c\">[\s\S]+<\!\-\- \/.c \-\->//g"
 
+          # Create package.json file for deno branch:
+          jq -c '{"name": .name, "version": .version, "description": .description, "license": .license, "type": "module"}' package.json > ./deno/package.json
+
       - name: Publish to deno branch
         uses: peaceiris/actions-gh-pages@v3
         with:
