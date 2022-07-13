@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@esm/index.mjs';
+import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@v0.0.8-esm/index.mjs';
 ```
 
 #### unshift( collection, ...items )
@@ -118,7 +118,7 @@ bool = ( out.buffer === arr.buffer );
 <script type="module">
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@esm/index.mjs';
+import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@v0.0.8-esm/index.mjs';
 
 var arr;
 var i;
