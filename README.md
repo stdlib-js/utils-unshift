@@ -41,6 +41,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-unshift/tags). For example,
+
+```javascript
 import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@v0.0.8-esm/index.mjs';
 ```
 
@@ -118,7 +123,7 @@ bool = ( out.buffer === arr.buffer );
 <script type="module">
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@v0.0.8-esm/index.mjs';
+import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@esm/index.mjs';
 
 var arr;
 var i;
