@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@deno/mod.js';
+import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@v0.2.1-deno/mod.js';
 ```
 
 #### unshift( collection, ...items )
@@ -124,7 +124,7 @@ bool = ( out.buffer === arr.buffer );
 
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@deno/mod.js';
+import unshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unshift@v0.2.1-deno/mod.js';
 
 var arr;
 var i;
