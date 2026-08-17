@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-31)
+## Unreleased (2026-08-17)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#14273](https://github.com/stdlib-js/stdlib/issues/14273)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`6a94f93`](https://github.com/stdlib-js/stdlib/commit/6a94f931962e3a3f227cbc6944f111794f333ce6) - **chore:** fix JavaScript lint errors [(#14286)](https://github.com/stdlib-js/stdlib/pull/14286) _(by Parth Kumbhar, Athan Reines)_
 -   [`822fadc`](https://github.com/stdlib-js/stdlib/commit/822fadca5619ac17182fad841af43ec6d1cdd81e) - **bench:** refactor to use string interpolation in `utils` [(#11410)](https://github.com/stdlib-js/stdlib/pull/11410) _(by Karan Anand, Athan Reines)_
 
 </details>
@@ -24,10 +37,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Parth Kumbhar
 
 </section>
 
